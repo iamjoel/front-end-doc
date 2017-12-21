@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+
+import updateMixin from '@/mixin/update'
+// require('./api/mock.js') // 测试数据
+
+export default {
+  mixins: [updateMixin],
+  data () {
+    return {
+      KEY: 'song',
+      model: {
+        name: null,
+        describe: null,
+        singer: null
+      },
+      rules: {
+        name: [
+          { required: true, message: 'xxx', trigger: 'blur' },
+        ],
+        date: [
+          { type: 'date', required: true, message: '请输入日期', trigger: 'blur' },
+        ],
+      },
+    }
+  },
+}
+
+]]></content>
+  <tabTrigger></tabTrigger>
+</snippet>

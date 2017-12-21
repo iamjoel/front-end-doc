@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+<i class="el-icon-${1:edit|delete|share...}"></i>
+]]></content>
+  <tabTrigger>el-icon</tabTrigger>
+</snippet>

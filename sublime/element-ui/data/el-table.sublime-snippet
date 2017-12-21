@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+<el-table
+  :data="tableData"
+  border
+  stripe>
+  <el-table-column
+    type="index"
+    label="序列"
+    align="center"
+    width="80">
+  </el-table-column>
+  <el-table-column
+    prop="${1:model}"
+    label="${2:label}"
+    >
+  </el-table-column>
+  <el-table-column
+    prop="op"
+    label="操作"
+    >
+    <template scope="scope">
+      <el-button type="info" size="small" @click="edit(scope.row.id)">编辑</el-button>
+      <el-button type="danger" size="small" @click="remove(scope.$index)">删除</el-button>
+    </template>
+  </el-table-column>
+</el-table>
+]]></content>
+  <tabTrigger>el-table</tabTrigger>
+</snippet>

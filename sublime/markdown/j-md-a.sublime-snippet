@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+[${1}](${2})
+]]></content>
+  <tabTrigger>mda</tabTrigger>
+  <scope>text.html.markdown</scope>
+</snippet>

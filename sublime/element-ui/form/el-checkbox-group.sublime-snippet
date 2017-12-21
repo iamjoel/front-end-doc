@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<el-checkbox-group v-model="${1:}">
+  <el-checkbox :label="${2:value}">${3:labelText}</el-checkbox>
+  <el-checkbox :label="${4:value}">${5:labelText}</el-checkbox>
+</el-checkbox-group>
+]]></content>
+  <tabTrigger>el-checkbox-group</tabTrigger>
+</snippet>

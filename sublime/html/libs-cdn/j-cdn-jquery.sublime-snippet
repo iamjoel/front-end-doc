@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+<script src="https://unpkg.com/jquery@3.2.1"></script>
+]]></content>
+  <tabTrigger>cdnj</tabTrigger>
+</snippet>

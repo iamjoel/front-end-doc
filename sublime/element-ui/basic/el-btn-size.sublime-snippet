@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+<el-button size="${2:large|small|mini}">${1}</el-button>
+]]></content>
+  <tabTrigger>el-btn:size</tabTrigger>
+</snippet>

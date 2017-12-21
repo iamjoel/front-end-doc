@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+<el-row type="flex" justify="end">
+  <el-pagination
+      @current-change="handleCurrentChange"
+      :current-page="pager.current"
+      :page-size="10"
+      layout="total, prev, pager, next, jumper"
+      :total="pager.total"
+      class="right">
+    </el-pagination>
+</el-row>
+]]></content>
+  <tabTrigger>el-checkbox</tabTrigger>
+</snippet>

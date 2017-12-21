@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+this.\$message({
+  showClose: true,
+  message: '${1}',
+  type: 'error'
+})
+]]></content>
+  <tabTrigger>el-message:error</tabTrigger>
+</snippet>

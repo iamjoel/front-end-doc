@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+  <el-radio-group v-model="${1:}">
+    <el-radio :label="${2:value}">${3:labelText}</el-radio>
+    <el-radio :label="${4:value}">${5:labelText}</el-radio>
+  </el-radio-group>
+]]></content>
+  <tabTrigger>el-radio-group</tabTrigger>
+</snippet>

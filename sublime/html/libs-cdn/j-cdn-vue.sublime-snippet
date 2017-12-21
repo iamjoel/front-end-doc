@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+<script src="https://unpkg.com/vue"></script>
+]]></content>
+  <tabTrigger>cdnv</tabTrigger>
+</snippet>

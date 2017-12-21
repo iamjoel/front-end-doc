@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+<el-button>${1}</el-button>
+]]></content>
+  <tabTrigger>el-btn</tabTrigger>
+</snippet>

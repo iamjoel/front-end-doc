@@ -1,0 +1,8 @@
+<snippet>
+  <tabTrigger>hvm</tabTrigger>
+  <description>垂直居中</description>
+  <content><![CDATA[
+  height: ${1:height}px;
+  line-height: ${1:height}px;
+  ]]></content>
+</snippet>

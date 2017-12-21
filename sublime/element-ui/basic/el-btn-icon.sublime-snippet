@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+<el-button type="primary" icon="${1:search}">${2:搜索}</el-button>
+]]></content>
+  <tabTrigger>el-btn:size</tabTrigger>
+</snippet>

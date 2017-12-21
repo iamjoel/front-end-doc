@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<el-dialog title="${1:弹出框}" ref="dialog">
+  <span slot="footer" class="dialog-footer">
+    <el-button @click="\$refs.dialog.close()">取 消</el-button>
+    <el-button type="primary" @click="confirm">确 定</el-button>
+  </span>
+</el-dialog>
+]]></content>
+  <tabTrigger>el-dialog</tabTrigger>
+</snippet>

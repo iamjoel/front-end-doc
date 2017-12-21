@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+<script src="https://unpkg.com/${1}"></script>
+]]></content>
+  <tabTrigger>cdn</tabTrigger>
+</snippet>

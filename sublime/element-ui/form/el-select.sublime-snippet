@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<el-select v-model="${1}" placeholder="请选择">
+  <el-option
+    v-for="item in options"
+    :key="${2}"
+    :label="${3}"
+    :value="${2}">
+  </el-option>
+</el-select>
+]]></content>
+  <tabTrigger>el-select</tabTrigger>
+</snippet>

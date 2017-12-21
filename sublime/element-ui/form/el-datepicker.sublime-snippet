@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<el-date-picker
+  v-model="${1}"
+  type="date"
+  placeholder="选择日期"
+>
+</el-date-picker>
+]]></content>
+  <tabTrigger>el-datepicker</tabTrigger>
+</snippet>

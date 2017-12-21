@@ -1,0 +1,28 @@
+<snippet>
+  <tabTrigger>vuelt</tabTrigger>
+  <content><![CDATA[
+import listMixin from '@/mixin/list'
+
+// require('./api/mock.js') // 上线注释
+
+export default {
+  mixins: [listMixin],
+  data () {
+    return {
+      KEY: 'song', // 获得页面地址，
+      PAGE_PATH_PREFIX: '/', // 用来生成编辑页地址
+      searchConditions: {
+        name: null,
+      },
+    }
+  },
+  methods: {
+  
+  }
+}
+
+
+
+]]></content>
+  
+</snippet>

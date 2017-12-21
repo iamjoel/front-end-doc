@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+<el-button type="${2:success|warning|danger|info}">${1}</el-button>
+]]></content>
+  <tabTrigger>el-btn:type</tabTrigger>
+</snippet>

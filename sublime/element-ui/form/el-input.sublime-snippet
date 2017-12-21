@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+<el-input v-model="input" placeholder="请输入内容"></el-input>
+]]></content>
+  <tabTrigger>el-input</tabTrigger>
+</snippet>
