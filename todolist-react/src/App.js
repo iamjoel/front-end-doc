@@ -14,8 +14,8 @@ class App extends Component {
       newTodo: ''
     };
   }
-
-  handlerInput(event) {
+  // 绑定 this public class fields syntax: https://babeljs.io/docs/plugins/transform-class-properties/
+  handlerInput = (event) => {
     if (event.keyCode !== ENTER_KEY) {
       return;
     }
@@ -36,7 +36,7 @@ class App extends Component {
     }
   }
 
-  handleChange (event) { // 很重要，否则输入框内容不会变...
+  handleChange = (event) => { // 很重要，否则输入框内容不会变...
     this.setState({newTodo: event.target.value});
   }
 
@@ -46,7 +46,7 @@ class App extends Component {
     })
     return (
       <div className="App">
-        <input type="text" onChange={this.handleChange.bind(this)} onKeyDown={this.handlerInput.bind(this)}  value={this.state.newTodo}/>
+        <input type="text" onChange={this.handleChange} onKeyDown={this.handlerInput}  value={this.state.newTodo}/>
         <ul>
           {list}
         </ul>
