@@ -34,7 +34,7 @@
   * vue-router
   * vuex
 * React
-  * [语法](https://devhints.io/react)
+  * [语法](react) [更多](https://devhints.io/react)
 * 组件
   * [ios 样式开关组件](switch)
 * 文件模板
