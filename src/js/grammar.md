@@ -43,10 +43,13 @@ if(a && b) {
 
 switch(a){
   case 1:
+    // doSth
     break;
   case 2:
+    // doSth
     break;
   case 3:
+    // doSth
     break;
   default:
     break;
@@ -90,10 +93,16 @@ function add(){
   return sum;
 }
 
+// 匿名函数。定义完后立即调用
+(function(){
+  // doSth
+})()
+
 // 函数表达式
 var getName = function() {
   // doSth
 }
+
 ```
 
 

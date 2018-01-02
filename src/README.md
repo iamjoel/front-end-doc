@@ -26,7 +26,9 @@
     * [获取图片的原始大小的宽高](js/get-image-h-and-w.html)
     * [美化数字输出](js/beautiful-num.js) 如：1234567 -> 1,234,567
     * [异步文件上传](js/aysn-file-upload)
-* [jQuery](jquery)
+* jQuery
+  * [常用](jquery)
+  * [ajax](jquery/ajax.html)
 * Vue
   * 语法
   * vue-router
