@@ -1,21 +1,22 @@
+/* 单行文本。 超出显示省略号*/
 .text-ellipsis {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* 多行省略号。 兼容性比较差。*/
-.text-ellipsis-multi($line:2) {
+/* 多行文本。超出显示省略号。 兼容性比较差。建议用 JS 库来做。*/
+.text-ellipsis-multi {
   overflow: hidden;
   /*text-overflow: ellipsis;*/
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: $line;
+  -webkit-line-clamp: 2; /* 行数 */
   /*可能需要行高*/
   /*line-height: 130%;*/
 }
 
 /* 禁止选中文本 */
-.text-no-select() {
+.text-no-select {
   user-select:none;
 }
