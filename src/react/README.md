@@ -29,11 +29,74 @@ var element2 = <button onClick="{(e) => this.deleteRow(id, e)}"></button>
 }
 ```
 
-## state 操作
+## state / props 操作
+```
+this.state.xxx // get
+this.props.xxx // get
+
+this.setState({ // set
+  xxx: xxx
+})
+
+// state的更新是异步的。
+this.setState((prevState, props) => ({
+  counter: prevState.counter + props.increment
+}))
+```
+
+## 列表要加 Keys
+```
+<li key={xxx}>
+    
+</li>
+```
+
+
 
 ## 生命周期
 
+
 ## 组件
+用纯函数
+```
+function Clock(props) {
+  return (
+    <div>
+      <h1>Hello, world!</h1>
+      <h2>It is {props.date.toLocaleTimeString()}.</h2>
+    </div>
+  );
+}
+
+function tick() {
+  ReactDOM.render(
+    <Clock date={new Date()} />,
+    document.getElementById('root')
+  );
+}
+```
+
+用 Class
+```
+class Clock extends React.Component {
+  constructor(props) {
+    super(props);
+    // this.state = {};
+  }
+  render() {
+    return (
+      <div>
+        <h1>Hello, world!</h1>
+        <h2>It is {this.props.date.toLocaleTimeString()}.</h2>
+      </div>
+    );
+  }
+}
+```
+
+
+
+
 
 
 
