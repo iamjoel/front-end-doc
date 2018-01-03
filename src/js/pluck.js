@@ -1,7 +1,13 @@
+/*
+var obj = {a:{b:3}}
+pluck(obj, 'a') // {b:3}
+pluck(obj, 'a.b') // 3
+pluck(obj, 'a.b.c') // null
+*/
 function pluck(obj, keyPath) {
   var res = null
   var keyPathArr = keyPath.split('.')
-  if(keyPath.length === 0 || typeof obj !== 'object') {
+  if(keyPath.length === 0 || typeof obj !== 'object' || !Array.isArray(obj)) {
     return null
   }
 
@@ -14,7 +20,7 @@ function pluck(obj, keyPath) {
         isEmpty = true
         res = null
       } else if(i !== keyPathArr.length - 1) {
-        if(typeof res !== 'object') {
+        if(typeof res !== 'object' || !Array.isArray(res)) {
           isEmpty = true
           res = null
         }
@@ -26,8 +32,3 @@ function pluck(obj, keyPath) {
   return res
 }
 
-/*
-var obj = {a:{b:3}}
-pluck(obj, 'a.b') // 3
-pluck(obj, 'a.b.c') // null
-*/
