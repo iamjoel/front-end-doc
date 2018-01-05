@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import 'todomvc-common/base.css';
+import 'todomvc-app-css/index.css';
+import TodoItem from './TodoItem.js'
 
 const ENTER_KEY = 13
 class App extends Component {
@@ -9,7 +12,8 @@ class App extends Component {
       list: [{
         id: 1,
         text: '测试',
-        isComplete: false
+        isCompleted: false,
+        isEditing: false
       }],
       newTodo: ''
     };
@@ -29,7 +33,8 @@ class App extends Component {
         list: this.state.list.concat({
           id: Date.now(),
           text: val,
-          isComplete: false
+          isCompleted: false,
+          isEditing: false,
         })
       });
       this.setState({newTodo: ''});
@@ -42,12 +47,13 @@ class App extends Component {
 
   render() {
     var list = this.state.list.map(item => {
-      return <li key={item.id}>{item.text}</li>
+      return <TodoItem key={item.id} todo={item} />
     })
+
     return (
       <div className="App">
         <input type="text" onChange={this.handleChange} onKeyDown={this.handlerInput}  value={this.state.newTodo}/>
-        <ul>
+        <ul className="todo-list">
           {list}
         </ul>
       </div>

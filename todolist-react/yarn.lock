@@ -5048,7 +5048,7 @@ react-dev-utils@^4.2.1:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@16.2.0:
+react-dom@^16.2.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.2.0.tgz#69003178601c0ca19b709b33a83369fe6124c044"
   dependencies:
@@ -5104,7 +5104,7 @@ react-scripts@1.0.17:
   optionalDependencies:
     fsevents "1.1.2"
 
-react@16.2.0:
+react@^16.2.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.2.0.tgz#a31bd2dab89bff65d42134fa187f24d054c273ba"
   dependencies:
@@ -5947,6 +5947,14 @@ to-arraybuffer@^1.0.0:
 to-fast-properties@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-1.0.3.tgz#b83571fa4d8c25b82e231b06e3a3055de4ca1a47"
+
+todomvc-app-css@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/todomvc-app-css/-/todomvc-app-css-2.1.0.tgz#b6f2716d339afa2e5f799347d2a48b05396242a5"
+
+todomvc-common@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/todomvc-common/-/todomvc-common-1.0.4.tgz#23099af886c2f0525bfd4537e078f12d0074309e"
 
 toposort@^1.0.0:
   version "1.0.6"
