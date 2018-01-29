@@ -1,0 +1,33 @@
+body {
+  font-size: medium;
+}
+.goods-list--half {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 .2rem;
+}
+
+.goods-list--half .media {
+  margin: .1rem 0;
+  width: 2.8rem;
+}
+
+.goods-list--half .media a{
+  display: block;
+  text-decoration: none;
+}
+
+.goods-list--half .media__img {
+  display: block;
+  width: 100%;
+  height: 3rem;
+}
+
+.goods-list--half .media__text {
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
