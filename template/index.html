@@ -4,20 +4,85 @@
   <meta charset="UTF-8">
   <title>代码库导航</title>
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <style>
+    [v-cloak]{
+      display: none;
+    }
+    .link-item {
+      margin-right: 5px;
+    }
+  </style>
 </head>
 <body>
-  <ul>
-    <li>
-      <h2>常用组件</h2>
-      <ul>
-        <li>
-          底部导航
-          <a href="common/component/footer/plain.html">纯 UI</a>
-          <a href="common/component/footer/vant.html">Vant ui</a>
-          <a href="https://github.com/iamjoel/front-end-codes/blob/master/template/common/component/footer">源码</a>
-        </li>
-      </ul>
-    </li>
-  </ul>
+  <div id="app">
+    <ul v-cloak>
+      <li v-for="subMenu in menu">
+        <h2>{{subMenu.name}}</h2>
+        <ul>
+          <li v-if="subMenu2.children"  v-for="subMenu2 in subMenu.children">
+            <h3>{{subMenu2.name}}</h3>
+            <ul>
+              <li v-for="subMenu3 in subMenu2.children">
+                {{subMenu3.name}}
+                <a :href="subMenu3.path + '/index.html'" v-if="!subMenu3.type" class="link-item">纯UI</a>
+                <a :href="subMenu3.path + '/' + type + '.html'" v-for="type in subMenu3.type" class="link-item">{{toTypename(type)}}</a>
+                <a :href="srcPrefix + subMenu3.path" class="link-item">源码</a>
+              </li>
+            </ul>
+          </li>
+          <li v-else>
+            {{subMenu2.name}} 
+            <a :href="subMenu2.path + '/index.html'" v-if="!subMenu2.type" class="link-item">纯UI</a>
+            <a :href="subMenu2.path + '/' + type + '.html'" v-for="type in subMenu2.type" class="link-item">{{toTypename(type)}}</a>
+            <a :href="srcPrefix + subMenu2.path" class="link-item">源码</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+  <script src="https://unpkg.com/vue"></script>
+  <script>
+    {
+      const srcPrefix = 'https://github.com/iamjoel/front-end-codes/blob/master/template/'
+      var menu = [
+        {
+          name: '常用组件',
+          children: [{
+            name: '底部导航',
+            path: 'common/component/footer',
+            type: ['plain','vant']
+          }]
+        },
+        {
+          name: '通用',
+          children: [{
+            name: '页面',
+            children: [{
+              name: '首页',
+              path: 'common/page/index',
+            }]
+          }]
+        }
+      ]
+      
+      var app = new Vue({
+        el: '#app',
+        data: {
+          menu,
+          srcPrefix
+        },
+        methods: {
+          toTypename(type) {
+            return {
+              'plain': '纯UI',
+              'vant': 'Vant UI',
+              'mint': 'Mint UI'
+            }[type] || '未知UI库'
+          }
+        }
+      })
+    }
+</script>
 </body>
 </html>
