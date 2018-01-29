@@ -20,7 +20,7 @@
 * 轮播
 * Tab
 * Icon 导航
-* [底部导航](commom/footer)
+* [底部导航](common/footer)
 
 ## 所有组件
 * 公共
