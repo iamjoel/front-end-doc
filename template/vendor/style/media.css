@@ -1,8 +1,20 @@
 .media {
   display: flex;
   align-items: flex-start;
+  padding: 10px;
+  text-decoration: none;
 }
 
+.media__img {
+  margin-right: 10px;
+}
 .media__body {
   flex: 1;
+}
+
+.media--border{
+  border-bottom: 1px solid #ddd;
+}
+.media--border:last-child{
+  border-bottom: none;
 }

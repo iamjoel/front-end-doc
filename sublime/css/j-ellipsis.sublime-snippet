@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+]]></content>
+</snippet>

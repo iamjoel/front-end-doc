@@ -2,5 +2,5 @@
   <content><![CDATA[
 <el-checkbox v-model="${1:}">${2:文字}</el-checkbox>
 ]]></content>
-  <tabTrigger>el-checkbox</tabTrigger>
+  <tabTrigger>j-el-checkbox</tabTrigger>
 </snippet>

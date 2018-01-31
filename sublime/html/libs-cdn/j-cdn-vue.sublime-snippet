@@ -2,5 +2,5 @@
   <content><![CDATA[
 <script src="https://unpkg.com/vue"></script>
 ]]></content>
-  <tabTrigger>cdnv</tabTrigger>
+  <tabTrigger>j-cdn-vue</tabTrigger>
 </snippet>

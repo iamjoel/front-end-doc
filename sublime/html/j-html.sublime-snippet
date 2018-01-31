@@ -11,5 +11,6 @@
 </body>
 </html>
 ]]></content>
-  <tabTrigger>html</tabTrigger>
+  <tabTrigger>j-html</tabTrigger>
+  <scope>text.html</scope>
 </snippet>

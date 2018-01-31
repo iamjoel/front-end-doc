@@ -2,5 +2,5 @@
   <content><![CDATA[
 <script src="https://unpkg.com/jquery@3.2.1"></script>
 ]]></content>
-  <tabTrigger>cdnj</tabTrigger>
+  <tabTrigger>j-cdn-jquery</tabTrigger>
 </snippet>

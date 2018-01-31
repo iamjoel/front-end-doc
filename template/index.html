@@ -27,6 +27,7 @@
                 <a :href="subMenu3.path + '/index.html'" v-if="!subMenu3.type" class="link-item">纯UI</a>
                 <a :href="subMenu3.path + '/' + type + '.html'" v-for="type in subMenu3.type" class="link-item">{{toTypename(type)}}</a>
                 <a :href="srcPrefix + subMenu3.path" class="link-item">源码</a>
+                <a :href="subMenu3.snippent" class="link-item" v-if="subMenu3.snippent">代码片段</a>
               </li>
             </ul>
           </li>
@@ -35,6 +36,8 @@
             <a :href="subMenu2.path + '/index.html'" v-if="!subMenu2.type" class="link-item">纯UI</a>
             <a :href="subMenu2.path + '/' + type + '.html'" v-for="type in subMenu2.type" class="link-item">{{toTypename(type)}}</a>
             <a :href="srcPrefix + subMenu2.path" class="link-item">源码</a>
+            <a :href="subMenu2.snippent" class="link-item" v-if="subMenu2.snippent">代码片段</a>
+
           </li>
         </ul>
       </li>
@@ -44,25 +47,49 @@
   <script src="https://unpkg.com/vue"></script>
   <script>
     {
-      const srcPrefix = 'https://github.com/iamjoel/front-end-codes/blob/master/template/'
+      const serverBase = 'https://github.com/iamjoel/front-end-codes/blob/master/'
+      const srcPrefix = `${serverBase}template/`
+      const snippentPrefix = `${serverBase}sublime/`
       var menu = [
         {
           name: '常用组件',
-          children: [{
+          children: 
+          [{
             name: '底部导航',
             path: 'common/component/footer',
             type: ['plain','vant']
+          },{
+            name: 'Media',
+            path: 'common/component/media',
+            type: ['plain'],
+            snippent: `${snippentPrefix}html/j-media`
+
           }]
         },
         {
           name: '通用',
-          children: [{
+          children: 
+          [{
             name: '页面',
             children: [{
               name: '首页',
               path: 'common/page/index',
             }]
-          }]
+          },
+          {
+            name: '组件',
+              children: [{
+              name: '底部导航',
+              path: 'common/component/footer',
+              type: ['plain','vant']
+            },{
+              name: 'Media',
+              path: 'common/component/media',
+              type: ['plain'],
+              snippent: `${snippentPrefix}html/j-media`
+            }]
+          },
+          ]
         }
       ]
       
