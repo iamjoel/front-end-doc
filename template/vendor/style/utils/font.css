@@ -21,11 +21,11 @@
   font-size: 12px;
 }
 
-.fw-bold {
+.fw-bold, .fw-b {
   font-weight: bold;
 }
 
-.fw-light, .fw-light{
+.fw-light, .fw-lighter, .fw-l{
   font-weight: lighter;
 }
 

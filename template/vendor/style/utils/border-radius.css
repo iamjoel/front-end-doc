@@ -12,4 +12,5 @@
 
 .border-radius-round {
   border-radius: 50%;
+  overflow: hidden;/* 防止子元素如果有背景色，会覆盖圆角 */
 }
