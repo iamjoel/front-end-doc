@@ -1,0 +1,18 @@
+.bgc-grey {
+  background-color: #f5f5f5;
+}
+
+.bgz-cover {
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.bgz-contain {
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+.bgz-100 {
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}

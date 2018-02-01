@@ -1,0 +1,29 @@
+.border {
+  border: 1px solid #ccc;
+}
+
+.border-h, .border-horizontal {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.border-v, .border-vertical {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.border-t, .border-top {
+  border-top: 1px solid #ccc;
+}
+
+.border-r, .border-right {
+  border-right: 1px solid #ccc;
+}
+
+.border-b, .border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+.border-l, .border-left {
+  border-left: 1px solid #ccc;
+}

@@ -13,10 +13,10 @@
   * JS 中添加全局变量，Stroge 等要加组件前缀。
 
 ## 常用组件
-* Flex 布局
-* 栅格
-* Media
-* Hero
+* [Flex 布局](common/component/flex)
+* [栅格](common/component/grid)
+* [Media](common/component/close-btn)
+* 按钮
 * 轮播
 * Tab
 * Icon 导航

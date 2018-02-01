@@ -1,0 +1,68 @@
+/*
+  布局相关的
+*/
+.ly {
+  display: flex;
+}
+
+.ly--multi {
+  flex-wrap: wrap;
+}
+
+.ly--center {
+  justify-content: center;
+}
+
+.ly--around {
+  justify-content: space-around;
+}
+
+.ly--right {
+  justify-content: flex-end;
+}
+
+.ly--justify {
+  justify-content: space-between;
+}
+
+.ly--middle {
+  align-items: center;
+}
+
+.ly--bottom {
+  align-items: flex-end;
+}
+
+.ly__item--fill {
+  width: 0; /* 不会超出父元素*/
+  flex-grow: 1;
+}
+/*
+  非块级元素的居中
+*/
+.text-center,.text-c {
+  text-align: center;
+}
+
+.text-right,.text-r {
+  text-align: right;
+}
+
+.pos-r {
+  position: relative;
+}
+
+/*
+  盒模型
+*/
+.border-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content-box {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}

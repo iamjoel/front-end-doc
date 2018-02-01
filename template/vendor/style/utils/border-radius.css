@@ -1,0 +1,15 @@
+.border-radius-lg {
+  border-radius: 25px;
+}
+
+.border-radius-md {
+  border-radius: 15px;
+}
+
+.border-radius-sm {
+  border-radius: 5px;
+}
+
+.border-radius-round {
+  border-radius: 50%;
+}
