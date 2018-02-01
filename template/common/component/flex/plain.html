@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="../../../vendor/reset.css">
+  <link rel="stylesheet" href="../../../vendor/style/ly.css">
+  <style>
+    h2 {
+      margin: 20px 0;
+    }
+    .block {
+      box-sizing: border-box;
+      width: 100px;
+      height: 100px;
+      background-color: #f00;
+      border: 1px solid #0f0;
+    }
+    .block--small {
+      width: 50px;
+      height: 50px;
+    }
+    
+  </style>
+</head>
+<body>
+  <h2>多个元素在一行</h2>
+  <div class="ly">
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+  </div>
+
+  <h2>两端对齐</h2>
+  <div class="ly ly--justify">
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+  </div>
+  
+  <h2>水平居中</h2>
+  <div class="ly ly--center">
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+  </div>
+
+  <h2>水平居中2</h2>
+  <div class="ly ly--around">
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+  </div>
+
+  <h2>一个固定宽度，一个自适应</h2>
+  <div class="ly">
+    <div class="block"></div>
+    <div class="block ly__item--fill" style="margin-left: 20px;"></div>
+  </div>
+
+  <h2>距右</h2>
+  <div class="ly ly--right">
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+  </div>
+  <h2>垂直居中</h2>
+  <div class="ly ly--middle">
+    <div class="block"></div>
+    <div class="block block--small" style="margin-left: 20px;"></div>
+  </div>
+</body>
+</html>
