@@ -5,46 +5,50 @@
   display: flex;
 }
 
-.ly--multi {
+.ly-multi {
   flex-wrap: wrap;
 }
 
-.ly--center {
+.ly-center, .ly-c {
   justify-content: center;
 }
 
-.ly--around {
+.ly-around, .ly-a {
   justify-content: space-around;
 }
 
-.ly--right {
+.ly-right, .ly-r {
   justify-content: flex-end;
 }
 
-.ly--justify {
+.ly-justify, .ly-j {
   justify-content: space-between;
 }
 
-.ly--middle {
+.ly-top, .ly-t {
+  align-items: top;
+}
+
+.ly-middle, .ly-m {
   align-items: center;
 }
 
-.ly--bottom {
+.ly-bottom, .ly-b {
   align-items: flex-end;
 }
 
-.ly__item--fill {
+.lyi-fill {
   width: 0; /* 不会超出父元素*/
   flex-grow: 1;
 }
 /*
   非块级元素的居中
 */
-.text-center,.text-c {
+.t-center,.t-c {
   text-align: center;
 }
 
-.text-right,.text-r {
+.t-right,.t-r {
   text-align: right;
 }
 

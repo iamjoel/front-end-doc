@@ -1,29 +1,29 @@
-.border {
+.b {
   border: 1px solid #ccc;
 }
 
-.border-h, .border-horizontal {
+.bh, .bhorizontal {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
 
-.border-v, .border-vertical {
+.bv, .bvertical {
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
 
-.border-t, .border-top {
+.bt, .btop {
   border-top: 1px solid #ccc;
 }
 
-.border-r, .border-right {
+.br, .bright {
   border-right: 1px solid #ccc;
 }
 
-.border-b, .border-bottom {
+.bb, .bbottom {
   border-bottom: 1px solid #ccc;
 }
 
-.border-l, .border-left {
+.bl, .bleft {
   border-left: 1px solid #ccc;
 }
