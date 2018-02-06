@@ -1,3 +1,5 @@
+@import "../_vars";
+
 /*
   字相关的
 */
@@ -64,12 +66,12 @@
   c-grey,c-lighter-grey 一般用在要淡化的文字上
 */
 .c-grey {
-  color: #666;
+  color: $text-grey;
 }
 
 .c-light-grey {
-  color: #999;
+  color: $text-light-grey;
 }
 .c-primary {
-
+  color: $text-primary
 }
