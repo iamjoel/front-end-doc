@@ -1,12 +1,56 @@
 ## 用 CSS 工具类来快速做页面
 在做页面的过程中，给元素添加样式，常规做法是给元素加个类名。起个合适的类名，还满难的。如果我们把常用的样式定义成一个个工具类名，那么很多情况，我们只需要在元素上加工具类名，而不需要专门取名字。例如，做一个图文的列表，我们以前可能会这么写：
 ```
+<div class="list">
+  <div class="media">
+      <img src="http://via.placeholder.com/50x50" class="media__img" />
+      <div class="media__body">
+        <div class="media__line">
+          <div class="media__title">标题</div>
+          <div class="media__time">2017/12/10</div>
+        </div>
+        <div class="media__summary">摘要</div>
+      </div>
+    </div>
 
+    <div class="media">
+      <img src="http://via.placeholder.com/50x50" class="media__img" />
+      <div class="media__body">
+        <div class="media__line">
+          <div class="media__title">标题</div>
+          <div class="media__time">2017/12/10</div>
+        </div>
+        <div class="media__summary">摘要很长很长摘要很长很长摘要很长很长摘要很长很长摘要很长很长摘要很长很长摘要很长很长摘要很长很长</div>
+      </div>
+    </div>
+</div>
 ```
 
 用工具类名的方式，这么写：
 ```
+<div>
+  <div class="ly bb p-10">
+      <img src="http://via.placeholder.com/50x50" class="br-sm mr-10" />
+      <div class="lyi-fill">
+        <div class="mb-10 ly ly-justify">
+          <div class="fz-lg">标题</div>
+          <div class="fz-sm c-grey">2017/12/10</div>
+        </div>
+        <div class="t-ddd">摘要</div>
+      </div>
+    </div>
 
+    <div class="ly bb p-10">
+      <img src="http://via.placeholder.com/50x50" class="br-sm mr-10" />
+      <div class="lyi-fill">
+        <div class="mb-10 ly ly-justify">
+          <div class="fz-lg">标题</div>
+          <div class="fz-sm c-grey">2017/12/10</div>
+        </div>
+        <div class="t-ddd">摘要很长很长摘要很长很长摘要很长很长摘要很长很长摘要很长很长摘要很长很长摘要很长很长摘要很长很长</div>
+      </div>
+    </div>
+</div>
 ```
 
 这样写的优点：
@@ -19,7 +63,7 @@
 注意：这种写法适用写不可复用的页面。写组件，还是用给元素加类名的方式比较好。
 
 ## 支持的工具类
-我这边定义了常见的工具类，源码见[这里]()。具体支持如下
+我这边定义了常见的工具类，源码见[这里](https://github.com/iamjoel/front-end-codes/blob/master/template/sass/utils/index.scss)。具体支持的工具类，如下
 
 * 布局
   * Flex 布局。
@@ -55,8 +99,8 @@
   * `{}`: 内包含的为可重复0至无数次的项。
   * `|`: 分隔不同选项。
 
-## 书写CSS的顺序
-从外而内，从垂直（上到下）到水平（左到右），从布局(大小)到细节（颜色，字的粗细）。
+## 让做页面速度更快一点！
+规定书写CSS的顺序。顺序从外而内，从垂直（上到下）到水平（左到右），从布局(大小)到细节（颜色，字的粗细）。
 
 * position,z-index,top,bottom,left,right。工具类:
   * `pos-r`
