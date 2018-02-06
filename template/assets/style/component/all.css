@@ -9,6 +9,11 @@
   margin-right: 10px;
 }
 
+.media--right .media__img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
 .media__body {
   flex: 1;
 }
