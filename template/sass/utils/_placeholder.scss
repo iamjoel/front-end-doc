@@ -1,0 +1,21 @@
+%placeholder {
+  background-color: rgba(0, 255, 0 ,.5);
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff
+}
+.placeholder {
+  display: block;
+  @extend %placeholder;
+}
+
+.placeholder-i {
+  display: inline;
+  @extend %placeholder;
+}
+
+.placeholder-ib {
+  display: inline-block;
+  @extend %placeholder;
+}

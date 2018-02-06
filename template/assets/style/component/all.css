@@ -1,0 +1,81 @@
+.media {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.media__img {
+  margin-right: 10px;
+}
+
+.media__body {
+  flex: 1;
+}
+
+.media--border {
+  border-bottom: 1px solid #ddd;
+}
+
+.media--border:last-child {
+  border-bottom: none;
+}
+
+.j-hero {
+  position: relative;
+}
+
+.j-hero__img {
+  height: 4rem;
+  background-size: cover;
+}
+
+.j-hero__text {
+  font-size: 30px;
+  line-height: 2;
+  padding-left: .2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .j-hero__text {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    color: #fff;
+  }
+}
+.j-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background-color: #fff;
+}
+
+.j-footer__item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #666;
+}
+
+.j-footer__item-icon {
+  margin-bottom: 5px;
+  height: 18px;
+}
+
+.j-footer__item-text {
+  display: block;
+  font-size: 14px;
+}
+
+.j-footer__item--active {
+  color: #38f;
+}
+
+/*# sourceMappingURL=all.css.map */

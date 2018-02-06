@@ -1,5 +1,5 @@
 /*
-  布局相关的
+  布局
 */
 .ly {
   display: flex;
@@ -38,7 +38,8 @@
 }
 
 .lyi-fill {
-  width: 0; /* 不会超出父元素*/
+  /* 不会超出父元素*/
+  width: 0;
   flex-grow: 1;
 }
 /*

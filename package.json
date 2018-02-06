@@ -1,0 +1,18 @@
+{
+  "name": "code-lib",
+  "version": "1.0.0",
+  "description": "> 能快速找到 高质量,可复用的代码。",
+  "scripts": {
+    "sass": "sass --update template/sass:template/assets/style/ --style expanded "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamjoel/front-end-codes.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamjoel/front-end-codes/issues"
+  },
+  "homepage": "https://github.com/iamjoel/front-end-codes#readme"
+}
