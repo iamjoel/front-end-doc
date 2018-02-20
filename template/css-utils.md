@@ -145,5 +145,7 @@
   * `ff-<yahei|hei|song>`
   * `c-<grey|light-grey>`
 
+## 其他
+* 支持 `placeholder` 来做组件占位。
 ## TODO
 * 加上一些组合样式，如 `triangle-<t|r|b|l>`（实心三角）,`arrow-<t|r|b|l>`(箭头)

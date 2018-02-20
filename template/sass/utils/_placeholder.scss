@@ -1,12 +1,15 @@
 %placeholder {
-  background-color: rgba(0, 255, 0 ,.5);
+  box-sizing: border-box;
+  display: flex;
+  border: 1px solid #f00;
+  background-color: #ddd;
   height: 30px;
-  line-height: 30px;
-  text-align: center;
-  color: #fff
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #fff;
 }
 .placeholder {
-  display: block;
   @extend %placeholder;
 }
 
