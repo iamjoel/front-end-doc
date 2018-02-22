@@ -91,7 +91,7 @@
     * `ly` 布局相关相关的。
     * `pos` -> `position`， border-box, content-box。 
 * 尺寸用 xl, lg, md, sm, xm 分别代表 特大，大，中等，小，特小。
-* 默认数值的单位是px，如 `mb-10` -> `margin-bottom: 10px`。 百分比的单位是 `per`: 如，`w-100per` -> `width: 100%;`。
+* 默认数值的单位是px，如 `mb-10` -> `margin-bottom: 10px`。 百分比的单位是 `per`: 如，`w-100per` -> `width: 100%;`。rem 的单位是rem：如 `pr-10rem`。
 * 颜色深浅，分别用 dark，light。如
   * `c-light-grey`
 * 类名的值采用 [BNF](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)(巴科斯范式)。常见符号的意义，如下
