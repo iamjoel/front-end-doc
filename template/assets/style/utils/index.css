@@ -74,15 +74,15 @@
   box-sizing: content-box;
 }
 
-.h-100 {
+.h-100per {
   height: 100%;
 }
 
-.w-50 {
+.w-50per {
   width: 50%;
 }
 
-.w-100 {
+.w-100per {
   width: 100%;
 }
 
