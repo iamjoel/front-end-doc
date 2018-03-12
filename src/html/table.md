@@ -28,5 +28,5 @@
       <td></td>
     </tr>
   </tbody>
-</table
+</table>
 ```
