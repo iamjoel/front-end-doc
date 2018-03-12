@@ -1,0 +1,19 @@
+/* http://browserhacks.com/ */
+/* WebKit */
+.selector:not(*:root) {}
+
+/* Firefox */
+body:last-child .selector, x:-moz-any-link {}
+
+/* IE */
+/* IE6 */
+html > body .selector {}
+/* IE7 */
+*:first-child+html .selector {}
+/* IE8- */
+:root .selector {}
+.selector { property: value\9; }
+/* IE 10+ */
+_:-ms-input-placeholder, :root .selector {}
+/* IE 11+ */
+_:-ms-fullscreen, :root .selector {}

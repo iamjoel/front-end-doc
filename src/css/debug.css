@@ -1,0 +1,20 @@
+/* 空元素 */
+div:empty, span:empty, li:empty, p:empty, td:empty, th:empty
+{ padding: 20px; border: 5px dotted yellow !important; }
+
+/* 某些属性不该为空 */
+*[alt=""], *[title=""], *[class=""], *[id=""], a[href=""], a[href="#"]
+{ border: 5px solid yellow !important; }
+
+/* 废弃的元素 */
+applet, basefont, center, dir, font, isindex, menu, s, strike, u
+{ border: 5px dotted red !important; }
+
+/* 废弃的属性 */
+*[background], *[bgcolor], *[clear], *[color], *[compact], *[noshade], *[nowrap], *[size], *[start],
+*[bottommargin], *[leftmargin], *[rightmargin], *[topmargin], *[marginheight], *[marginwidth], *[alink], *[link], *[text], *[vlink],
+*[align], *[valign],
+*[hspace], *[vspace],
+*[height], *[width],
+ul[type], ol[type], li[type]
+{ border: 5px solid red !important; }

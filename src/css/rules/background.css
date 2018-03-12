@@ -1,0 +1,9 @@
+.bg-cover {
+  background-size: cover; 
+}
+.bg-contain {
+  background-size: contain; 
+}
+.bg-100per {
+  background-size: 100% 100%;
+}
