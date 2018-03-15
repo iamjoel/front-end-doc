@@ -7,6 +7,8 @@
 * active 活跃的
 * enabled 可用
 * disabled 不可用
+* 尺寸。 xl,lg,md,sm,xs 分别对应 特大,大，中，下，特小。
+* primary 主要的
 
 ## 布局
 * 头部 header
@@ -42,7 +44,7 @@
 * 投票 vote
 * 版权 copyright
 * 结果 result
-* 按钮 button
+* 按钮 btn button
 * 输入 input
 * 个人中心
   * 用户状态（关注数，喜欢数） user-status
