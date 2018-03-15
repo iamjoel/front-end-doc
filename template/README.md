@@ -7,7 +7,7 @@
 
 每个行业下面包含：项目，页面，组件。项目由页面组成，页面由组件组成。
 
-**做页面推荐用[CSS 工具类](css-utils.md)**。
+**做页面推荐用[CSS 工具类](https://github.com/iamjoel/css-utils-collection)**。
 
 ## 组件规范
 * 不污染其他组件
@@ -15,7 +15,6 @@
   * JS 中添加全局变量，Stroge 等要加组件前缀。
 
 ## 常用组件
-* [Flex 布局](common/component/flex)
 * [栅格](common/component/grid)
 * [Media](common/component/close-btn)
 * 按钮

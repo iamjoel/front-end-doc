@@ -1,0 +1,21 @@
+.placeholder, .placeholder-i, .placeholder-ib {
+  box-sizing: border-box;
+  display: flex;
+  border: 1px solid #f00;
+  background-color: #ddd;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.placeholder-i {
+  display: inline;
+}
+
+.placeholder-ib {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=placeholder.css.map */
