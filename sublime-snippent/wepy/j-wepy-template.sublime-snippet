@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+<style>
+</style>
+<template>
+  <view>
+    
+  </view>
+</template>
+
+<script>
+import wepy from 'wepy'
+
+export default class Index extends wepy.page {
+  config = {
+    navigationBarTitleText: '${0:标题}'
+  }
+  data = {
+   
+  }
+  methods = {
+    
+  }
+  onLoad() {
+  }
+}
+</script>
+
+]]></content>
+  <tabTrigger>j-wepy-template</tabTrigger>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<repeat for="{{list}}" key="index" index="index" item="item">
+  <view>{{item}}</view>
+</repeat>
+]]></content>
+  <tabTrigger>j-json-parse</tabTrigger>
+</snippet>
