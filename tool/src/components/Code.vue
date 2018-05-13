@@ -1,10 +1,11 @@
 <template>
   <div class="main">
-    {{jsonParse}}
+    <pre v-html="highlight(jsonParse)"/>
   </div>
 </template>
 
 <script>
+import Prism from 'prismjs'
 import jsonParse from '@/codes/js/json-parse.txt'
 console.log(jsonParse)
 export default {
@@ -14,11 +15,13 @@ export default {
     }  
   },
   methods: {
-    
+    highlight() {
+      return Prism.highlight(jsonParse, Prism.languages.javascript, 'javascript')
+    },
   }
 }
 </script>
-
+<style src="prismjs/themes/prism.css"></style>
 <style scoped>
   .main {
     flex-grow: 1;

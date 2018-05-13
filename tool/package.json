@@ -10,9 +10,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "add": "^2.0.6",
     "css-utils-collection": "^1.2.0",
+    "prismjs": "^1.14.0",
     "raw-loader": "^0.5.1",
-    "vue": "^2.5.2"
+    "vue": "^2.5.2",
+    "yarn": "^1.6.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
