@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <div>代码片段</div>
+    <div></div>
+    <el-menu mode="horizontal">
+      <el-menu-item index="1">代码片段</el-menu-item>
+    </el-menu>
     <div class="ly">
       <Nav @change="currSnippentChange"/>
       <Code :id="currSnippent.id" :language="currSnippent.language" />

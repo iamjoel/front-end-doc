@@ -1,9 +1,9 @@
 <template>
   <div class="main" v-show="id">
-    <div class="ly mb-10">
+    <!-- <div class="ly mv-10">
       <el-button type="primary">复制</el-button>
-    </div>
-    <pre v-html="highlight(snippentContent, this.language)"/>
+    </div> -->
+    <pre v-html="highlight(snippentContent, this.language)" class="language-" />
   </div>
 </template>
 
@@ -62,10 +62,15 @@ export default {
   }
 }
 </script>
-<style src="prismjs/themes/prism.css"></style>
+<style src="prismjs/themes/prism-tomorrow.css"></style>
 <style scoped>
   .main {
     flex-grow: 1;
-    padding: 0 20px;
+    padding: 20px;
+  }
+  pre {
+    max-width: calc(100vw - 270px);
+    max-height: calc(100vh - 200px);
+    overflow: auto;
   }
 </style>

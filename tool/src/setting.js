@@ -31,9 +31,11 @@ export const classifyList = [{
   path: 'js',
   language: 'javascript',
   children: [{
-    name: 'json'
+    name: 'JSON',
+    path: 'json'
   },{
-    name: 'guid'
+    name: 'Guid',
+    path: 'guid'
   },]
 },{
   name: 'DOM&BOM',
