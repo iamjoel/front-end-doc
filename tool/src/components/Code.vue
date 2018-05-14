@@ -1,9 +1,15 @@
 <template>
-  <div class="main" v-show="id">
-    <!-- <div class="ly mv-10">
+  <div class="main">
+    <div v-if="id">
+      <!-- <div class="ly mv-10">
       <el-button type="primary">复制</el-button>
-    </div> -->
-    <pre v-html="highlight(snippentContent, this.language)" class="language-" />
+      </div> -->
+      <pre v-html="highlight(snippentContent, this.language)" class="language-" />
+    </div>
+    <div style="color:#F56C6C;" v-else>
+      点击左侧菜单查看代码片段！
+    </div>
+    
   </div>
 </template>
 
