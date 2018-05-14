@@ -1,8 +1,9 @@
 <template>
   <div id="app">
+    <div>代码片段</div>
     <div class="ly">
-      <Nav/>
-      <Code classify="js" name="xx" />
+      <Nav @change="currSnippentChange"/>
+      <Code :id="currSnippent.id" :language="currSnippent.language" />
     </div>
   </div>
 </template>
@@ -16,6 +17,16 @@ export default {
   components: {
     Nav,
     Code
+  },
+  data() {
+    return {
+      currSnippent: {}
+    }
+  },
+  methods: {
+    currSnippentChange(data) {
+      this.currSnippent = data
+    }
   }
 }
 </script>

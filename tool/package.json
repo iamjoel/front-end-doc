@@ -12,6 +12,7 @@
   "dependencies": {
     "add": "^2.0.6",
     "css-utils-collection": "^1.2.0",
+    "element-ui": "^2.3.8",
     "prismjs": "^1.14.0",
     "raw-loader": "^0.5.1",
     "vue": "^2.5.2",

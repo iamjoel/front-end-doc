@@ -1,0 +1,18 @@
+// body在浏览器内显示的区域宽度。
+body.clientWidth
+
+// body总高度。如果有滚动条的话，会包含未显示的部分。
+body.offsetWidth
+
+// 浏览器内页面可用宽度。
+window.innerWidth // 值等于 body.clientWidth + 滚动条宽度(如果有的化)
+// 浏览器宽度。
+window.outerWidth
+
+// 详细: http://www.cnblogs.com/polk6/p/5051935.html 。
+
+// 高度只是 Width 改成 Height
+
+// window.outerHeight 的值为 window.innerHeight + 工具栏和地址栏的高度
+
+
