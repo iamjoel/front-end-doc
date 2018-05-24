@@ -1,0 +1,15 @@
+// History API 可以修改页面的 URL ，同时不刷新页面。
+history.back() // history.go(-1) 一样的效果
+history.forward()
+
+history.pushState(data, title, url)
+history.replaceState(data, title, url)
+
+// 后退或前进时会触发
+window.addEventListener('popstate', function(e) {
+  // e.state 为传递的数据。
+})
+
+// 不能删除 state
+
+// 更多 https://css-tricks.com/using-the-html5-history-api/

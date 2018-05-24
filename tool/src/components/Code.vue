@@ -29,6 +29,7 @@ const snippents = {
   'js/guid': require('@/codes/js/guid.txt'),
 
   'DOM&BOM/event': require('@/codes/DOM&BOM/event.txt'),
+  'DOM&BOM/histroy': require('@/codes/DOM&BOM/histroy.txt'),
   'DOM&BOM/get-url-query-object': require('@/codes/DOM&BOM/get-url-query-object.txt'),
   'DOM&BOM/img-w-h': require('@/codes/DOM&BOM/img-w-h.txt'),
   'DOM&BOM/page-w-h': require('@/codes/DOM&BOM/page-w-h.txt'),

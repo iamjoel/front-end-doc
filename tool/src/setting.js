@@ -47,6 +47,9 @@ export const classifyList = [{
     name: '获取URL上的查询参数',
     path: 'get-url-query-object'
   },{
+    name: 'Histroy API',
+    path: 'histroy'
+  },{
     name: '获得图片的实际宽高',
     path: 'img-w-h'
   },{
