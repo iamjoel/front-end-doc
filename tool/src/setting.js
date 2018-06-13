@@ -41,6 +41,9 @@ export const classifyList = [{
   name: 'DOM&BOM',
   language: 'javascript',
   children: [{
+    name: '异步上传文件',
+    path: 'upload-file'
+  },{
     name: '事件',
     path: 'event'
   },{
