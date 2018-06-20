@@ -44,6 +44,9 @@ export const classifyList = [{
     name: '异步上传文件',
     path: 'upload-file'
   },{
+    name: '图片上传前预览图片',
+    path: 'img-preview'
+  },{
     name: '事件',
     path: 'event'
   },{
