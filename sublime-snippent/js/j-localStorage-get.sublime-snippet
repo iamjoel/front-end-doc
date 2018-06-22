@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-localStorage.getItem(JSON.parse(${1}))
+JSON.parse(localStorage.getItem(${1}))
 ]]></content>
   <tabTrigger>j-localStorage-get</tabTrigger>
 </snippet>

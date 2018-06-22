@@ -11,9 +11,8 @@
   * [Media](html/j-media.sublime-snippet)
 * CSS
   * [文字超出省略](html/j-ellipsis.sublime-snippet)
-  * [HTML 模板](html/j-html.sublime-snippet)
-  * [HTML 模板](html/j-html.sublime-snippet)
 * JavaScript
+  * [for 循环](html/j-for.sublime-snippet)
   * [JSON parse](html/j-json-parse.sublime-snippet)
   * [JSON stringify](html/j-json-stringify.sublime-snippet)
   * [localStorage get](html/j-localStorage-get.sublime-snippet)
@@ -24,6 +23,8 @@
   * [管理后台 列表页 JS 模板](html/j-vue-list-js.sublime-snippet)
   * [管理后台 详情页模板](html/j-vue-update.sublime-snippet)
   * [管理后台 详情页 JS 模板](html/j-vue-update-js.sublime-snippet)
+  * 自己的组件
+    * Media
 * Vue Router(TODO)
 * Vuex(TODO)
 * [element ui](element-ui)
