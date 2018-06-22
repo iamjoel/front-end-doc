@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<van-cell-group>
+  <van-field 
+    v-model="model.name"
+    label="${1:文本框}"
+    placeholder="请输入"
+  />
+</van-cell-group>
+]]></content>
+  <tabTrigger>vant-field</tabTrigger>
+</snippet>

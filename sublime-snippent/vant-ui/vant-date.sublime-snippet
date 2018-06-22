@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+<van-cell-group>
+  <van-cell title="日期" @click="showDatePicker = true">
+    {{model.date | time}}
+  </van-cell>
+</van-cell-group>
+
+<van-popup 
+  v-model="showDatePicker"
+  position="bottom"
+>
+  <van-datetime-picker 
+    type="date"
+    v-model="tempDate"
+    @confirm="selectedDate"
+    @cancel="showDatePicker = false"
+  />
+</van-popup>
+]]></content>
+  <tabTrigger>vant-date</tabTrigger>
+</snippet>

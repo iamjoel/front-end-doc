@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+<van-cell-group>
+  <van-cell title="选择城市" @click="showArea = true">
+    {{model.area.name}}
+  </van-cell>
+</van-cell-group>
+<van-popup 
+  v-model="showArea"
+  position="bottom"
+>
+  <van-area 
+    :area-list="areaList"
+    v-model="tempArea"
+    @confirm="selectedArea"
+    @cancel="showArea = false" />
+</van-popup>
+]]></content>
+  <tabTrigger>vant-address</tabTrigger>
+</snippet>

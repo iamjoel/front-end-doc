@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+<van-cell-group>
+  <van-cell title="下拉框" @click="showSelect = true">
+    {{model.select.name}}
+  </van-cell>
+</van-cell-group>
+<van-popup 
+  v-model="showSelect"
+  position="bottom"
+>
+  <van-picker
+    show-toolbar
+    title=""
+    :columns="fruitNameList"
+    @cancel="showSelect = false"
+    @confirm="selectFruit"
+  />
+</van-popup>
+]]></content>
+  <tabTrigger>vant-select</tabTrigger>
+</snippet>

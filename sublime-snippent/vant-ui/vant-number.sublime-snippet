@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<van-cell-group>
+  <van-field 
+    v-model="model.number"
+    type="number"
+    label="数字"
+  />
+</van-cell-group>
+]]></content>
+  <tabTrigger>vant-number</tabTrigger>
+</snippet>

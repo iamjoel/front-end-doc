@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<van-tabs v-model="active">
+  <van-tab title="${1:选项}">
+    ${2:内容}
+  </van-tab>
+</van-tabs>
+]]></content>
+  <tabTrigger>vant-tab</tabTrigger>
+</snippet>

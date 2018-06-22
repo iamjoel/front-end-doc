@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<van-cell-group>
+  <van-field 
+    v-model="model.textarea"
+    type="textarea"
+    label="文本域"
+    placeholder="请输入"
+    required
+  />
+</van-cell-group>
+]]></content>
+  <tabTrigger>vant-textarea</tabTrigger>
+</snippet>

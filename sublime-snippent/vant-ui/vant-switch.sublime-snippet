@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<van-cell-group>
+  <van-switch-cell v-model="model.switch" title="开关" />
+</van-cell-group>
+]]></content>
+  <tabTrigger>vant-switch</tabTrigger>
+</snippet>

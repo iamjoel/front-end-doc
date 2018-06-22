@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+<van-checkbox-group v-model="model.checkbox">
+  <van-cell-group>
+     <van-cell :title="'复选标题。选中:' + model.checkbox.join()" />
+  </van-cell-group>
+  <van-cell-group>
+    <van-cell title="复选框 1" @click="checkboxClicked($event, model.checkbox, '1')">
+      <div @click.stop="noop" class="d-ib">
+        <van-checkbox name="1"/>
+      </div>
+    </van-cell>
+    <van-cell title="复选框 2" @click="checkboxClicked($event, model.checkbox, '2')">
+      <div @click.stop="noop" class="d-ib">
+        <van-checkbox name="2" />
+      </div>
+    </van-cell>
+  </van-cell-group>
+</van-checkbox-group>
+]]></content>
+  <tabTrigger>vant-checkbox</tabTrigger>
+</snippet>

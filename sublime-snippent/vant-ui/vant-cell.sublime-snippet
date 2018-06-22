@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<van-cell-group>
+  <van-cell title="${1:单元格}" value="${2:内容}" />
+</van-cell-group>
+]]></content>
+  <tabTrigger>vant-cell</tabTrigger>
+</snippet>
