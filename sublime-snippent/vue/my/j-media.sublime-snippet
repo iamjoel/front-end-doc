@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<media v-for="i in 3" :key="Math.random()"
+<media
   style="padding: .1rem"
   :img="{
     src: 'http://via.placeholder.com/100x100',
