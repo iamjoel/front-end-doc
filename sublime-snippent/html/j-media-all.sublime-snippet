@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+<media
+  style="padding: .1rem"
+  :img="{
+    src: 'http://via.placeholder.com/100x100',
+    isRight: true,
+    isCircle: true,
+    height:'1rem',
+    width: '1rem'
+  }"
+>
+  
+</media>
+]]></content>
+  <tabTrigger>j-html</tabTrigger>
+</snippet>
