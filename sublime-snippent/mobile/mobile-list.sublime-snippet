@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<div class="list">
+  <ListFetcher key-id="singer">
+    <template slot-scope="scope" v-if="scope.data">
+      <div class="item">{{scope.data.name}}</div>
+    </template>
+  </ListFetcher>
+</div>
+]]></content>
+  <tabTrigger>mobile-list-</tabTrigger>
+</snippet>

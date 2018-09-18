@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-this.$toast.fail('操作失败')
+this.\$toast.fail('操作失败')
 ]]></content>
   <tabTrigger>vant-toast-fail</tabTrigger>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-this.$toast.success('操作成功');
+this.\$toast.success('操作成功');
 ]]></content>
   <tabTrigger>vant-toast-success</tabTrigger>
 </snippet>

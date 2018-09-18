@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<van-dialog
+  v-model="isShowDialog"
+  show-cancel-button
+  :before-close="beforeClose"
+>
+  ${1}
+</van-dialog>
+]]></content>
+  <tabTrigger>vant-address</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+<van-button type="primary">${1}</van-button>
+]]></content>
+  <tabTrigger>vant-button-primary</tabTrigger>
+</snippet>

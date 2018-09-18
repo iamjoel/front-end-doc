@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<van-popup v-model="isShowBottom" position="bottom">
+  内容
+</van-popup>
+]]></content>
+  <tabTrigger>vant-</tabTrigger>
+</snippet>

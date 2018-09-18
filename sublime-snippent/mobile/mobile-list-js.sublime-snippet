@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+import ListFetcher from '@/components/list-fetcher'
+
+components: {
+  ListFetcher
+},
+]]></content>
+  <tabTrigger>mobile-list-js-</tabTrigger>
+</snippet>

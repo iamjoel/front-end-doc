@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+beforeClose(action, done) {
+  if(action === 'confirm') {
+    setTimeout(()=> {
+      done()
+      this.$toast('成功')
+    }, 1000);
+  } else {
+    done()
+  }
+}
+]]></content>
+  <tabTrigger>vant-dialog-js</tabTrigger>
+</snippet>
