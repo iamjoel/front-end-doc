@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<van-popup v-model="isShowPicker" position="bottom">
+  <van-picker
+    show-toolbar
+    title="标题"
+    :columns="columns"
+    @cancel="isShowPicker=false"
+    @confirm="isShowPicker=false"
+  />
+</van-popup>
+]]></content>
+  <tabTrigger>vant-</tabTrigger>
+</snippet>

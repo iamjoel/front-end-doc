@@ -75,7 +75,7 @@
   * 弹出框
     * [成功提示](vant-ui/vant-toast-success.sublime-snippet)
     * [失败提示](vant-ui/vant-toast-fail.sublime-snippet)
-    * [选择器(Picker)](vant-ui/vant-select.sublime-snippet)
+    * [选择器(Picker)](vant-ui/vant-picker.sublime-snippet)
     * [底部弹出层](vant-ui/vant-popup-bottom.sublime-snippet)
     * [确认删除提示](vant-ui/vant-confirm.sublime-snippet)
     * [弹出框](vant-ui/vant-dialog.sublime-snippet)
