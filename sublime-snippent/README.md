@@ -8,6 +8,7 @@
 * HTML
   * [HTML 模板](html/j-html.sublime-snippet)
   * [占位图](html/j-img-placeholder.sublime-snippet)
+  * [做为按钮用的 a 链接](html/j-a.sublime-snippet) `href="javascript:void(0);"`
   * [Media](html/j-media.sublime-snippet)
 * CSS
   * [文字超出省略](css/j-ellipsis.sublime-snippet)
