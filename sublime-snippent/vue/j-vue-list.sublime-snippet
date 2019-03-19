@@ -38,8 +38,8 @@
         width="350"
         >
         <template scope="scope">
-          <el-button type="success" size="small" @click="\$router.push(viewPagePath(scope.row.uuid))">详情</el-button>
-          <el-button type="info" size="small" @click="\$router.push(editPagePath(scope.row.uuid))" v-if="isShow('edit')">编辑</el-button>
+          <el-button type="success" size="small" @click="\$router.push(viewPagePath(scope.row.id))">详情</el-button>
+          <el-button type="info" size="small" @click="\$router.push(editPagePath(scope.row.id))" v-if="isShow('edit')">编辑</el-button>
         </template>
       </el-table-column>
     </el-table>
