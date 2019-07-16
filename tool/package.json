@@ -16,7 +16,7 @@
     "prismjs": "^1.14.0",
     "raw-loader": "^0.5.1",
     "vue": "^2.5.2",
-    "yarn": "^1.6.0"
+    "yarn": "^1.17.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
