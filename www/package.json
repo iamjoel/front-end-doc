@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "start-storybook",
-    "build": "build-storybook -c .storybook -o .dist"
+    "build": "build-storybook -c .storybook -o dist"
   },
   "dependencies": {
     "core-js": "^3.4.4",
