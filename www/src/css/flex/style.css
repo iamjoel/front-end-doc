@@ -19,7 +19,7 @@
   margin-right: 100px;
   margin-bottom: 10px;
 }
-.ly-multi .item:nth-child(3n+2){
+.ly-multi .item:nth-child(3n){
   margin-right: 0;
 }
 .ly-m {
