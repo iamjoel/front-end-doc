@@ -1,4 +1,4 @@
-export default { title: 'HTML/链接' };
+export default { title: 'HTML/链接' }
 
 export const Mail = () => `
 <div>
