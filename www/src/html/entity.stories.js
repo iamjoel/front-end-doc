@@ -14,5 +14,5 @@ export const Main = () => `
 `
 
 Main.story = {
-  name: '基础用法'
+  name: '常见字符'
 }
