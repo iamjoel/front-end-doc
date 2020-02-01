@@ -1,0 +1,26 @@
+.hide {
+  /*display: none;*/
+}
+
+/*https://css-tricks.com/snippets/css/media-queries-for-standard-devices/*/
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .ipad {
+    display: block;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+  .pc{
+    display: block;
+  }
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  .iphone6 {
+    display: block;
+  }
+}
+
