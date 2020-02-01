@@ -1,8 +1,8 @@
 # 前端代码库
 > 能快速找到 高质量,可复用的代码。
 
+代码片段线上版地址： https://iamjoel.github.io/front-end-codes/www/dist/index.html
 代码库导航地址： https://iamjoel.github.io/front-end-codes/template/
-代码片段线上版地址： https://iamjoel.github.io/front-end-codes/tool/dist/index.html
 
 ## 找代码的顺序
 1. IDE 的代码片段。 -> [Sublime 代码片段](sublime-snippent)
