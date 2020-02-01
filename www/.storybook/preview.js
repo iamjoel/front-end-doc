@@ -5,6 +5,11 @@ import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
 // addDecorator(centered) // 设置了这个，Doc 中 demo 就显示不了。。。
 
 addParameters({
+  // 排序
+  options: {
+    storySort: (a, b) =>
+      a[1].kind === b[1].kind ? 0 : a[1].id.localeCompare(b[1].id, undefined, { numeric: true }),
+  },
   viewport: {
     viewports: {
       ...INITIAL_VIEWPORTS, // 默认是  MINIMAL_VIEWPORTS
