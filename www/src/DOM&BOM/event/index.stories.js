@@ -1,16 +1,15 @@
 import doc from './README.md'
 
 export default { 
-  title: 'x/xx',
+  title: 'DOM&BOM/事件(Event)',
   parameters: {
-    componentSubtitle: '',
     notes: doc,
   }
 }
 
 export const Main = () => `
 <div>
-  
+  见 Notes
 </div>
 `
 
