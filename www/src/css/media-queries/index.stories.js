@@ -1,6 +1,12 @@
 import './style.css'
+import doc from './README.md'
 
-export default { title: 'CSS/媒体查询(有问题)' }
+export default {
+  title: 'CSS/媒体查询',
+  parameters: {
+    notes: doc
+  }
+}
 
 export const Main = () => `
 <div>

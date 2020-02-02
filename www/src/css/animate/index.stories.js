@@ -1,10 +1,13 @@
 import './style.css'
+import doc from './README.md'
 
 export default { 
   title: 'CSS/动画',
   parameters: {
+    notes: doc,
     previewTabs: {
-      'storybookjs/notes/panel': {hidden: true}
+      'canvas': {hidden: false}, // 交互Demo
+      'storybook/docs/panel': {hidden: true},
     }
   }
 }
