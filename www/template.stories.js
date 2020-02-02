@@ -5,6 +5,11 @@ export default {
   parameters: {
     componentSubtitle: '',
     notes: doc,
+    previewTabs: {
+      'storybookjs/notes/panel': {hidden: true},
+      'canvas': {hidden: true}, // 交互Demo
+      'storybook/docs/panel': {hidden: true},
+    }
   }
 }
 

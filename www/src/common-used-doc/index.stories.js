@@ -1,4 +1,15 @@
-export default { title: '常用网站导航' }
+import doc from './README.md'
+
+export default {
+  title: '常用网站导航',
+  parameters: {
+    notes: doc,
+    previewTabs: {
+      'canvas': {hidden: false},
+      'storybook/docs/panel': {hidden: true}
+    }
+  },
+}
 import './style.css'
 import main from './main.js'
 
@@ -27,7 +38,7 @@ export const Main = () => ({
         <li class="nav__item"><a href="https://github.com/mzabriskie/axios">axios</a></li>
         <li class="nav__item"><a href="https://github.com/vuejs/vue-resource/blob/master/docs/http.md" data-shortcut="h">vue-resource</a></li>
         <br>
-        <li class="nav__item"><a href="https://element.eleme.cn/#/zh-CN/component/installation">Element 1.4</a></li>
+        <li class="nav__item"><a href="https://element.eleme.cn/2.1/#/zh-CN/component/installation">Element@2.1.0</a></li>
         <li class="nav__item"><a href="https://www.youzanyun.com/zanui/vant#/zh-CN/component/icon">Vant</a></li>
         <li class="nav__item"><a href="http://mint-ui.github.io/docs/#/zh-cn2">Mint UI</a></li>
         <br>
