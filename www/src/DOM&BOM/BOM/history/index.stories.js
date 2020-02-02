@@ -4,12 +4,14 @@ export default {
   title: 'DOM&BOM/History API',
   parameters: {
     notes: doc,
+    previewTabs: {
+      'storybook/docs/panel': {hidden: true},
+    }
   }
 }
 
 export const Main = () => `
 <div>
-  见 Notes
 </div>
 `
 

@@ -1,6 +1,13 @@
 import './style.css'
 
-export default { title: 'CSS/动画' }
+export default { 
+  title: 'CSS/动画',
+  parameters: {
+    previewTabs: {
+      'storybookjs/notes/panel': {hidden: true}
+    }
+  }
+}
 
 export const Main = () => `
 <div>

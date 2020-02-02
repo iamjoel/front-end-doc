@@ -4,12 +4,15 @@ export default {
   title: 'DOM&BOM/事件(Event)',
   parameters: {
     notes: doc,
+    previewTabs: {
+      'storybook/docs/panel': {hidden: true}
+    }
   }
 }
 
 export const Main = () => `
 <div>
-  见 Notes
+
 </div>
 `
 
