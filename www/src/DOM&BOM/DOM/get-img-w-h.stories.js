@@ -1,5 +1,5 @@
 export default { 
-  title: 'DOM&BOM/获取图片的宽高',
+  title: 'DOM&BOM/获取图片的实际宽高',
 }
 
 export const Main = () => ({
