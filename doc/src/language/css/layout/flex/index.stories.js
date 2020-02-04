@@ -2,7 +2,7 @@ import './style.css'
 import doc from './README.md'
 
 export default {
-  title: 'CSS/Flexbox 布局',
+  title: 'CSS/布局/Flexbox',
   parameters: {
     componentSubtitle: '推荐安装 @lucky-joel/css-utils',
     notes: doc,
