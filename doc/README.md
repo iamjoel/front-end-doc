@@ -1,24 +1,8 @@
-# www
+# 前端文档
+## 语言
+* [HTML](src/language/html), [Markdown](src/language/markdown)
+* [CSS](src/language/css)
+* [JavaScript](src/language/js)
 
-## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
