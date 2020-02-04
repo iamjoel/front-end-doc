@@ -2,7 +2,9 @@
 > 能快速找到 高质量,可复用的代码。
 
 包含内容：
-* [文档](https://iamjoel.github.io/front-end-codes/www/dist/index.html) 访问有点慢。 文档包括： 
+* [文档](https://iamjoel.github.io/front-end-codes/www/dist/index.html) 访问有点慢。 文档包括：
   * 文字描述
   * 交互Demo
-* [代码片段](sublime-snippent)。目前只支持 Sublime。
+* 代码片段
+  * [Sublime](snippent/sublime)。目前只支持 Sublime。
+  * [Dash](snippent/dash)

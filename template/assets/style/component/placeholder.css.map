@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,6CAAa;EACX,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,cAAc;EACtB,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;;;AAMb,cAAe;EACb,OAAO,EAAE,MAAM;;;AAIjB,eAAgB;EACd,OAAO,EAAE,YAAY",
-"sources": ["../../../sass/component/placeholder.scss"],
-"names": [],
-"file": "placeholder.css"
-}

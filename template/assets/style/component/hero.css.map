@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,OAAQ;EACN,QAAQ,EAAE,QAAQ;;;AAGpB,YAAa;EACX,MAAM,EAAE,IAAI;EACZ,eAAe,EAAE,KAAK;;;AAGxB,aAAc;EACZ,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,CAAC;EACd,YAAY,EAAE,KAAK;;;AAErB,oCAAqC;EACnC,aAAc;IACZ,QAAQ,EAAE,QAAQ;IAClB,MAAM,EAAE,GAAG;IACX,KAAK,EAAE,GAAG;IACV,KAAK,EAAE,IAAI",
-"sources": ["../../../sass/component/hero.scss"],
-"names": [],
-"file": "hero.css"
-}
