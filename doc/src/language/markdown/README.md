@@ -29,7 +29,7 @@ Markdown 与 Office Word 相比，其控制文本的格式更容易；与 HTML �
 Github，Stackoverflow等网站都支持Markdown。
 
 ## <a name="headers">标题</a>
-```
+```markdown
 # h1
 ## h2
 ### h3
@@ -37,7 +37,8 @@ Github，Stackoverflow等网站都支持Markdown。
 ##### h5
 ###### h6
 ```
-转化成HTML的效果如下  
+转化成HTML的效果如下
+
 # h1
 ## h2
 ### h3
@@ -49,7 +50,7 @@ Github，Stackoverflow等网站都支持Markdown。
 两个及以上空格加回车。
 
 ## <a name="anchor">链接</a>
-```
+```markdown
 跳至[落网](http://www.luoo.net/)  
 新窗口跳至<a href="http://www.luoo.net/" target="_blank">落网</a>  
 带title的链接 [落网](http://www.luoo.net/ '落网')  
@@ -65,7 +66,7 @@ Github，Stackoverflow等网站都支持Markdown。
 地址与文字一样的链接的简写 <http://www.baidu.com>
 
 ## <a name="pic">图片</a>
-```
+```markdown
 ![头像](https://avatars0.githubusercontent.com/u/2120155?v=3&s=40)
 
 ```
@@ -75,7 +76,8 @@ Github，Stackoverflow等网站都支持Markdown。
 
 ## <a name="list">列表</a>
 有序列表  
-```
+
+```markdown
 1. 第一个
   1. 第1.1个
 1. 第二个
@@ -90,7 +92,8 @@ Github，Stackoverflow等网站都支持Markdown。
 1. 第三个
 
 无序列表  
-```
+
+```markdown
 * 葡萄
   * 夏黑
   * 巨峰
@@ -108,14 +111,14 @@ Github，Stackoverflow等网站都支持Markdown。
 
 
 ## <a name="strong">强调</a>
-```
+```markdown
 **强调内容**
 ```
 转化成HTML的效果如下  
 **强调内容**
 
 ## <a name="italic">斜体</a>
-```
+```markdown
 *斜体内容*
 ```
 
@@ -123,7 +126,7 @@ Github，Stackoverflow等网站都支持Markdown。
 *斜体内容*
 
 ## <a name="del-line">删除线</a>
-```
+```markdown
 ~~这种理解是有问题的~~
 ```
 
@@ -131,15 +134,16 @@ Github，Stackoverflow等网站都支持Markdown。
 ~~这种理解是有问题的~~
 
 ## <a name="split-line">分割线</a>
-```
+```markdown
 ****
 ```
 
 转化成HTML的效果如下  
+
 ****
 
 ## <a name="inline-code">行内代码</a>
-```
+```markdown
 `npm i`
 ```
 
@@ -147,7 +151,7 @@ Github，Stackoverflow等网站都支持Markdown。
 `npm i`
 
 ## <a name="block-code">块级代码</a>
-```
+```markdown
 3个`js
 function say(str){
   console.log(str);
@@ -161,7 +165,9 @@ function say(str){
 }
 3个`
 ```
+
 转化成HTML的效果如下  
+
 ```js
 function say(str){
 	console.log(str);
@@ -176,7 +182,7 @@ function say(str){
 ```
 
 ## <a name="table">表格</a>
-```
+```markdown
 | Tables        | Are           | Cool  |
 | :------------ |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
@@ -193,15 +199,16 @@ function say(str){
 | zebra stripes | are neat      |    $1 |
 
 ## <a name="blockquote">引用</a>
-```
+```markdown
 > 天才就是99%的努力加上1%的灵感。-爱迪生
 ```
 
-转化成HTML的效果如下    
+转化成HTML的效果如下  
+
 > 天才就是99%的努力加上1%的灵感。-爱迪生
 
 ## <a name="block">块状元素</a>
-```
+```markdown
 ∙∙∙∙天才就是99%的努力加上1%的灵感。
 ∙∙∙∙1%的灵感是很重要的。
 ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙-爱迪生
@@ -215,7 +222,7 @@ function say(str){
                             -爱迪生
 
 ## <a name="checkbox">复选框</a>
-```
+```markdown
 - [x] Be awesome
 - [ ] Prepare dinner
   - [x] Research recipe
@@ -224,7 +231,8 @@ function say(str){
 - [ ] Sleep
 ```
 
-转化成HTML的效果如下    
+转化成HTML的效果如下  
+
 - [x] Be awesome
 - [ ] Prepare dinner
   - [x] Research recipe
@@ -234,10 +242,13 @@ function say(str){
 
 ## <a name="backslash-escapes">转义</a>
 Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号，例如：如果你想要用星号加在文字旁边的方式来做出强调效果（但不用`<em>`标签），你可以在星号的前面加上反斜杠：
-```
+  
+```markdown
 \*sth\*
 ```
-转化成HTML的效果如下    
+
+转化成HTML的效果如下  
+
 \*sth\*
 
 ## <a name="reference">参考</a>

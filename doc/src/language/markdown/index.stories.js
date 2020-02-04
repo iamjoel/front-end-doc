@@ -1,7 +1,7 @@
 import doc from './README.md'
 
-export default {
-  title: 'HTML/favicon',
+export default { 
+  title: 'Markdown',
   parameters: {
     componentSubtitle: '',
     notes: doc,
@@ -18,5 +18,5 @@ export const Main = () => `
 `
 
 Main.story = {
-  name: '基础用法'
+  name: '概览'
 }
