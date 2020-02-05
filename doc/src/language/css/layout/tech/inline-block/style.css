@@ -1,0 +1,73 @@
+/*参考 http://hiloki.github.io/kitecss/*/
+.ib {
+  display: table; /*For Android: Android doesn't fill in `inline-block` gaps. `display: table;` magic fills in them.*/
+  width: 100%;
+  font-size: 0 !important;/* 让空格，tab，回车之类空白的不占空间 */
+}
+
+.ib--center {
+  text-align: center;
+}
+
+.ib--right {
+  text-align: right;
+}
+
+.ib--justify {
+  display: block;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+}
+
+.ib--justify:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+
+
+.ib__item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  /* default font size */
+}
+
+.ib--fill > .ib__item:not(.ib__item--fill) {
+  float: left;
+}
+.ib__item--fill {
+  display: block;
+}
+
+.ib--middle:after {
+  display: inline-block;
+  content: "";
+  height: 100%;
+  vertical-align: middle;
+}
+
+.ib--middle > .ib__item {
+  vertical-align: middle;
+}
+
+.ib {
+  margin-bottom: 20px;
+}
+.ib__item:not(.ib__item--fill){
+  width: 100px;
+  height: 100px;
+}
+.ib__item:nth-child(4n+1){
+  background-color: rgb(114, 120, 191);
+}
+.ib__item:nth-child(4n+2){
+  background-color: rgb(187, 114, 191);
+}
+.ib__item:nth-child(4n+3){
+  background-color: rgb(114, 191, 146);
+}
+.ib__item:nth-child(4n+4){
+  background-color: rgb(114, 155, 191);
+}
