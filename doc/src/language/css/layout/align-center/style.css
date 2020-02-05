@@ -10,6 +10,18 @@
   justify-content: center;
 }
 
+#no-sure-width-position {
+  position: relative;
+  height: 20px;
+}
+#no-sure-width-position ul{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#no-sure-width-position ul li{
+  display: inline-block;
+}
 #no-sure-width-1 {
   list-style: none;
   font-size: 0;

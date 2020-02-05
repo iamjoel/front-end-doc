@@ -34,11 +34,18 @@ export const Hor = () => `
   <ul id="no-sure-width-flex">
     <li v-for="i in 5" :key="i" class="page-item">{{i}}</li>
   </ul>
-  <h3>方法2: inline－block</h3>
+  <h3>方法2: 用绝对定位 和 translate</h3>
+  <div id="no-sure-width-position">
+    <ul>
+      <li v-for="i in 5" :key="i" class="page-item">{{i}}</li>
+    </ul>
+  </div>
+
+  <h3>方法3: inline－block</h3>
   <ul id="no-sure-width-1">
     <li v-for="i in 5" :key="i" class="page-item">{{i}}</li>
   </ul>
-  <h3>方法3: 浮动＋定位</h3>
+  <h3>方法4: 浮动＋定位</h3>
   <ul id="no-sure-width-2">
     <li v-for="i in 5" :key="i" class="page-item">{{i}}</li>
   </ul>
@@ -51,7 +58,18 @@ Hor.story = {
 
 export const Ver = () => `
 <div>
-  
+  <h2>单行文本的垂直居中</h2>
+  <div style="height: 40px; line-height: 40px;background: #f60; color: #fff;">
+      随你走在天际，看繁华满地。
+  </div>
+
+  <h2>高度不固定的元素的垂直居中</h2>
+  <!-- 直接用的 flex 的css，css 不是 scoped 有问题。。。 -->
+  <div class="wrap ly ly-m" style="height: 500px;">
+    <div class="item">内容</div>
+    <div class="item">内容</div>
+    <div class="item">内容</div>
+  </div>
 </div>
 `
 
