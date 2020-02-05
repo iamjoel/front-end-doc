@@ -3,7 +3,7 @@
 ![盒模型](box-model.png)
 
 盒模型由 4 部分组成。从内到外分别是
-```
+```css
 content -> padding -> border -> margin
 ```
 
@@ -17,7 +17,7 @@ content -> padding -> border -> margin
 
 ## 设置盒模型
 用 box-sizing 来设置盒模型。 如
-```
+```css
 box-sizing: border-box;
 ```
 
@@ -25,12 +25,14 @@ box-sizing: border-box;
 外边距。
 
 margin 属性包括
+
 * margin-left
 * margin-right
 * margin-top
 * margin-bottom
 * margin: 简写。如
-```
+
+```css
 margin: 2em          /* all margins set to 2em */
 margin: 1em 2em      /* top & bottom = 1em, right & left = 2em */
 margin: 1em 2em 3em  /* top=1em, right & left = 2em, bottom=3em */

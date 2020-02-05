@@ -2,7 +2,7 @@ import doc from './README.md'
 import boxModelImg from './box-model.png'
 
 export default { 
-  title: 'CSS/布局/基础/1 盒模型',
+  title: 'CSS/布局/基础/2 盒模型',
   parameters: {
     componentSubtitle: '',
     notes: doc,
