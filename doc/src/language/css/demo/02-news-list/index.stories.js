@@ -2,7 +2,7 @@ import doc from './README.md'
 import './style.css'
 
 export default { 
-  title: 'CSS/Demo/02 新闻列表',
+  title: 'CSS/综合Demo/02 新闻列表',
   parameters: {
     componentSubtitle: '',
     notes: doc,

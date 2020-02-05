@@ -3,7 +3,7 @@ import './style.css'
 import baiduLogo from './baidu.jpg'
 
 export default { 
-  title: 'CSS/Demo/03 Baidu',
+  title: 'CSS/综合Demo/03 Baidu',
   parameters: {
     componentSubtitle: '',
     notes: doc,
