@@ -2,7 +2,7 @@ import doc from './README.md'
 import './style.css'
 
 export default { 
-  title: 'CSS/布局/技术/浮动',
+  title: 'CSS/布局/技术/z 浮动',
   parameters: {
     componentSubtitle: '',
     notes: doc,
