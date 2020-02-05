@@ -1,0 +1,28 @@
+.bfc-demo .bfc-1 {
+    overflow: hidden;
+    background-color: #f00;
+}
+
+.bfc-demo .bfc-1 > .inner{
+  float: left;
+  height: 300px;
+}
+
+.bfc-demo .bfc-2 {
+  display: inline-block;
+  background-color: #f00;
+}
+
+.bfc-demo .fl{
+  background-color: #ff0;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+.bfc-demo .bfc-3{
+  overflow: hidden;
+  background-color: #f00;
+  height: 300px;
+}
