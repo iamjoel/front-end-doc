@@ -1,9 +1,9 @@
 {
-  "name": "www",
+  "name": "front-end-doc",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "start-storybook",
+    "dev": "start-storybook -s ./static",
     "build": "build-storybook -c .storybook -o dist"
   },
   "dependencies": {
