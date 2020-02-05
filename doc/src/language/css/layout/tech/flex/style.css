@@ -1,0 +1,41 @@
+.ly {
+  display: flex;
+}
+.ly-c {
+  justify-content: center;
+}
+.ly-j {
+  justify-content: space-between;
+}
+.lyi-fill, .lyi-f {
+  /* 不会超出父元素*/
+  width: 0;
+  flex-grow: 1;
+}
+.ly-multi {
+  flex-wrap: wrap;
+}
+.ly-multi .item{
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+.ly-multi .item:nth-child(3n){
+  margin-right: 0;
+}
+.ly-m {
+  align-items: center;
+}
+
+.wrap {
+  width: 500px;
+  background: #f60;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  outline: 1px solid #0f0;
+  background: #f00;
+  text-align: center;
+  color: #fff;
+}
