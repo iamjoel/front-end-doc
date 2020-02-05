@@ -2,7 +2,7 @@ import './style.css'
 import doc from './README.md'
 
 export default { 
-  title: 'CSS/规则/动画',
+  title: 'CSS/规则/动画(Animation)',
   parameters: {
     notes: doc,
     previewTabs: {
