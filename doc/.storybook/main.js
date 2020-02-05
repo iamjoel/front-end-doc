@@ -1,6 +1,6 @@
 module.exports = {
-  // stories: ['../src/**/*.stories.(js)'],
-  stories: ['../src/language/css/**/*.stories.(js)'],
+  stories: ['../src/**/*.stories.(js)'],
+  // stories: ['../src/language/css/**/*.stories.(js)'],
   addons: [
     '@storybook/addon-knobs/register', // 动态改传入的组件参数
     '@storybook/addon-notes/register', // 放一些备注
