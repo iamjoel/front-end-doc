@@ -3,7 +3,7 @@
 
 ## API
 * [MDN](https://developer.mozilla.org/zh-CN/)
-* [CSS 规则参考](http://tympanus.net/codrops/css_reference/)
+* [CSS 规则参考](http://tympanus.net/codrops/css_reference/) [CSS参考手册](http://css.doyoe.com/)
 * [Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
 ### Vue 全家桶

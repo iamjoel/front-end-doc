@@ -13,7 +13,7 @@ export default {
 }
 
 export const Main = () => `
-<div>
+<div class="anim-page">
   <div class="block anim-bounce"></div>
 </div>
 `

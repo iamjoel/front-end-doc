@@ -23,7 +23,7 @@ Main.story = {
 }
 
 export const Usage = () => `
-<div>
+<div class="pos-page">
   <h2>相对定位</h2>
   <div class="wrap">
       <div class="pr content">相对定位</div>
