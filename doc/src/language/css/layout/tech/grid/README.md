@@ -5,7 +5,8 @@ Grid 布局是一个实验特性，目前移动浏览器都不支持该特性。
 
 ## 多个元素在一行
 HTML
-```
+
+```html
 <div class="ly">
   <div class="ly__item">xxx</div>
   <div class="ly__item">xxx</div>
@@ -15,7 +16,7 @@ HTML
 
 CSS
 
-```
+```css
 .ly {
     display: grid;
     grid-template-columns: 50px 50px 50px;/* 这边以 3 列为例，每列宽 50px */
@@ -23,7 +24,7 @@ CSS
 ```
 
 ## 多个元素水平居中对齐
-```
+```css
 .ly {
   display: grid;
   grid-template-columns: 50px 50px 50px;
@@ -32,7 +33,7 @@ CSS
 ```
 
 ## 多个元素水平两端对齐
-```
+```css
 .ly {
   display: grid;
   grid-template-columns: 50px 50px 50px;
@@ -41,7 +42,7 @@ CSS
 ```
 
 ## 多行多个元素水平两端对齐
-```
+```css
 .ly {
   display: grid;
   grid-template-columns: 50px 50px 50px;
@@ -51,7 +52,7 @@ CSS
 ```
 
 ## 多个元素在一行，某个元素占据剩余部分
-```
+```css
 .ly {
   display: grid;
   grid-template-columns: 50px 50px 1fr; /* 这边以最后一个元素占剩余部分为例 */
@@ -60,7 +61,7 @@ CSS
 ```
 
 ## 多个元素水平居右对齐
-```
+```css
 .ly {
   display: grid;
   grid-template-columns: 50px 50px 50px;
@@ -69,7 +70,7 @@ CSS
 ```
 
 ## 多个元素垂直居中
-```
+```css
 .ly {
   display: grid;
   grid-template-columns: 50px 50px 50px;
@@ -78,7 +79,7 @@ CSS
 ```
 
 ## 多个元素水平垂直居中对齐
-```
+```css
 .ly {
   display: grid;
   grid-template-columns: 50px 50px 50px;
