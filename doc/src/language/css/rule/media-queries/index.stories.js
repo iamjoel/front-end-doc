@@ -2,7 +2,7 @@ import './style.css'
 import doc from './README.md'
 
 export default {
-  title: 'CSS/媒体查询',
+  title: 'CSS/规则/媒体查询',
   parameters: {
     notes: doc
   }
