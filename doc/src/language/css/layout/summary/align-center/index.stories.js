@@ -2,7 +2,7 @@ import doc from './README.md'
 import './style.css'
 
 export default { 
-  title: 'CSS/布局/z 总结/居中',
+  title: 'CSS/布局/总结/居中',
   parameters: {
     componentSubtitle: '',
     notes: doc,
