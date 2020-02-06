@@ -43,19 +43,14 @@ Main.story = {
 
 ```
 
-## 使用 Doc 文档
+## 显示 notes panel 的内容
 ```js
 import doc from './README.md'
 
 export default { 
-  title: '常用/1 代码参考',
-  decorators: [withLinks],
+  title: '',
   parameters: {
-    componentSubtitle: '',
     notes: doc,
-    previewTabs: {
-      
-    }
   }
 }
 ```
