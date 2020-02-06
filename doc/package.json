@@ -21,6 +21,7 @@
     "@storybook/addon-notes": "^6.0.0-alpha.2",
     "@storybook/addon-storysource": "^6.0.0-alpha.2",
     "@storybook/addon-viewport": "^6.0.0-alpha.2",
+    "@storybook/addon-links": "^5.3.12",
     "@storybook/html": "^6.0.0-alpha.2",
     "@storybook/vue": "^6.0.0-alpha.2",
     "@vue/cli-plugin-babel": "^4.1.0",
