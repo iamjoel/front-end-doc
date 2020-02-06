@@ -1,6 +1,6 @@
 # Promise
 ## 基本用法
-```
+```js
 function doThing(){
   return new Promise((resolve, reject) => {
     setTimeout(function(){// 模拟异步
@@ -16,7 +16,8 @@ doThing().then(成功回调).catch(失败回调)
 
 ## 多个串行操作
 以 3 个为例。代码如下
-```
+
+```js
 doThing1().then(function () {
   return doThing2()
 }).then(function () {
@@ -28,8 +29,9 @@ doThing1().then(function () {
 
 ## 多个并行操作
 以 3 个为例。代码如下
-```
-romise.all([doThing1(), doThing2(), doThing3()]).then(function () {
+
+```js
+Promise.all([doThing1(), doThing2(), doThing3()]).then(function () {
   // doSth
 }
 ```
