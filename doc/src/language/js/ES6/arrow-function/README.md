@@ -2,7 +2,8 @@
 箭头函数：用箭头(=>)来定义函数。
 
 通过使用箭头函数，可以在不影响代码可读性的情况下，少写代码。如:
-```
+
+```js
 (x, y) => {
 	console.log(x, y);
 	return x + y;
@@ -12,7 +13,8 @@
 ```
 
 等效于
-```
+
+```js
 function(x, y){
 	console.log(x, y);
 	return x + y;
