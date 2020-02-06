@@ -1,7 +1,7 @@
 import doc from './README.md'
 
 export default {
-  title: '常用网站导航',
+  title: '常用/0 网站导航',
   parameters: {
     notes: doc,
     previewTabs: {
